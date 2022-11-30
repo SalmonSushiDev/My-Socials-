@@ -1,0 +1,305 @@
+/*Web*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    
+    transition: all .5s;
+}
+body{background: #f0f2f5;}
+
+/*Texts#1*/
+.texts1{
+    background: #e0e6eb;
+    border-radius: 5px;
+    
+    width: 300px;
+    
+    margin: 0 auto;
+    padding: 5px;
+    
+    color: #0a0d0f;
+    text-align: center;
+}
+.texts1:hover{
+    background: #0a0d0f;
+    border-radius: 10px;
+    
+    width: 305px;
+    
+    margin: 1 auto;
+    padding: 10px;
+    
+    color: #e0e6eb;
+    cursor: default;
+}
+
+#smallTxt1{
+    font-size: 4px;
+    color: #e0e6eb;
+}
+#smallTxt1:hover{
+    font-size: 3px;
+}
+
+/*Main#1*/
+.main1{
+    background: #d1d9e1;
+    border-radius: 5px;
+    
+    margin: 5px;
+    padding: 5px;
+    padding-top: 30px;
+}
+.main1:hover{
+    border-radius: 10px;
+    
+    margin: 10px;
+    padding: 10px;
+    padding-top: 35px;
+    
+    cursor: default;
+}
+
+    /*Badge#1*/
+.badge1{
+    background: #c1ccd7;
+    border-radius: 5px;
+    
+    left: 9px;
+    top: 160px;
+    
+    margin: 5px;
+    padding: 5px;
+    
+    color: #141a1f;
+    position: absolute;
+    text-align: center;
+}
+.badge1:hover{
+    background: #141a1f;
+    border-radius: 10px;
+    
+    left: 10px;
+    
+    margin: 10px;
+    padding: 10px;
+    
+    color: #c1ccd7;
+    cursor: pointer;
+}
+
+.badge1 h1{
+    font-size: 14px;
+}
+.badge1 h1:hover{
+    font-size: 15px;
+}
+
+.user1{
+    border-radius: 50%;
+    
+    width: 60px;
+    height: 60px;
+}
+.user1:hover{
+    border-radius: 51%;
+    
+    width: 65px;
+    height: 65px;
+}
+
+    /*Socials#1*/
+.socials1{
+    background: #b2c0cd;
+    border-radius: 5px;
+    
+    margin: 5px;
+    margin-top: 6px;
+    padding: 5px;
+    
+    color: #1e272e;
+}
+.socials1:hover{
+    background: #1e272e;
+    border-radius: 10px;
+    
+    margin: 10px;
+    margin-top: 15px;
+    padding: 10px;
+    
+    color: #b2c0cd;
+    cursor: default;
+}
+
+/*Cards#1*/
+.cards1{
+    background: #a2b3c3;
+    border-radius: 5px;
+    
+    margin: 5px;
+    padding: 10px;
+}
+.cards1:hover{
+    border-radius: 10px;
+    
+    margin: 10px;
+    padding: 10px;
+}
+
+.card{
+    border-radius: 5px;
+    
+    margin: 5px;
+    padding: 5px;
+    
+    display: flex;
+    text-align: center;
+}
+.card:hover{
+    border-radius: 10px;
+    
+    margin: 10px;
+    padding: 10px;
+    
+    cursor: pointer;
+}
+
+.card span{text-align: left;}
+
+/*Socials#2*/
+.ytCards1{
+    background: #93a6b8;
+    border-radius: 5px;
+    
+    margin: 5px;
+    padding: 5px;
+    
+    color: #28333e;
+}
+.ytCards1:hover{
+    background: #28333e;
+    border-radius: 10px;
+    
+    margin: 10px;
+    padding: 10px;
+    
+    color: #93a6b8;
+}
+
+/*Socials#3*/
+    /*YT#1*/
+#yt1{background: #f9ebeb; color: #140606;}
+#yt1:hover{background: #140606; color: #f9ebeb;}
+
+#yt1 span{
+    background: #c43b3b;
+    border-radius: 4px;
+    
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+    
+    color: #f9ebeb;
+}
+#yt1 span:hover{
+    background: #f9ebeb;
+    border-radius: 5px;
+    
+    padding-right: 8px;
+    padding-left: 8px;
+    
+    color: #c43b3b;
+    cursor: pointer;
+}
+
+    /*Rbx#1*/
+.rbxCards1{
+    background: #849aae;
+    border-radius: 5px;
+    
+    margin: 5px;
+    padding: 5px;
+    
+    color: #32404d;
+}
+.rbxCards1:hover{
+    background: #32404d;
+    border-radius: 10px;
+    
+    margin: 10px;
+    padding: 10px;
+    
+    color: #849aae;
+}
+
+#rbx1{background: #f0f2f5; color: #0a0d0f;}
+#rbx1:hover{background: #0a0d0f; color: #f0f2f5;}
+
+#rbx1 span{
+    background: #d1d9e1;
+    border-radius: 2px;
+    
+    width: 25px;
+    height: 25px;
+    
+    margin-right: 5.5px;
+    
+    font-size: 13px;
+    
+    color: #f0f2f5;
+    text-align: center;
+}
+#rbx1 span:hover{
+    background: #f0f2f5;
+    border-radius: 4px;
+    
+    width: 32px;
+    height: 32px;
+    
+    margin-right: 10.5px;
+    
+    font-size: 16px;
+    
+    color: #0a0d0f;
+    cursor: pointer;
+}
+
+#rbx1 span p{margin-top: 5px;}
+#rbx1 span p:hover{margin-top: 6px;}
+
+    /*Code#1*/
+.codeCards1{
+    background: #748da4;
+    border-radius: 5px;
+    
+    margin: 5px;
+    padding: 5px;
+    
+    color: #3c4d5d;
+}
+.codeCards1:hover{
+    background: #3c4d5d;
+    border-radius: 10px;
+    
+    margin: 10px;
+    padding: 10px;
+    
+    color: #748da4;
+}
+
+#code1{background: #141a1f; color: #f0f2f5;}
+#code1:hover{background: #f0f2f5; color: #141a1f;}
+
+#code1 span{margin-right: 6px;}
+#code1 span:hover{margin-right: 12px;}
+
+/*Icons#1*/
+.material-symbols-rounded{margin-right: 5.5px; font-size: 25px;}
+.material-symbols-rounded:hover{
+    margin-right: 10.5px;
+    font-size: 32px;
+    cursor: pointer;
+}
